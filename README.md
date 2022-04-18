@@ -1,5 +1,5 @@
 # PS3 Reverse Engineering
-reverse engineering of the playstation 3 executables. Requires IDA PRO 6.8 or 7.5
+reverse engineering of playstation 3 executables. Requires IDA PRO 6.8 or 7.5
 
 
 ## LV2 (Kernel)
