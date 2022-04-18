@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Items>
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg0"
+				src="#seg0"
+				/>
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+StorageMedia:StorageMedia.type&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+AGL+StorageMedia:StorageMedia.type 1 2"
+			/>
+
+		</Items>
+	</View>
+
+	<View id="seg0">
+		<Attributes>
+			<Table key="base">
+				<Pair key="icon_fixed_width"><String>181</String></Pair>
+				<Pair key="icon_fixed_height"><String>181</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xcb/game-debug" key="game_debug"  attr="game_debug" />
+		</Items>
+	</View>
+
+</XMBML>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+			<Table key="attr_hdd_contents">
+				<Pair key="view0"><String>xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_MONTH</String></Pair>
+				<Pair key="view1"><String>xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_YEAR</String></Pair>
+				<Pair key="view2"><String>xcb://localhost/query?sort=+Photo:Common.titleForSort&cond=Aa+Photo:Photo.codec</String></Pair>
+				<Pair key="view_name0"><String>msg_month_folder</String></Pair>
+				<Pair key="view_name1"><String>msg_year_folder</String></Pair>
+				<Pair key="view_name2"><String>msg_all</String></Pair>
+				<Pair key="view_icon"><String>tex_photo</String></Pair>
+			</Table>
+		</Attributes>
+
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_bdvd_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_BDROM %xCB_MEDIA_TYPE_DVDPRW" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_cd_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.mediaFormat %xCB_MEDIA_FORMAT_DATA+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_CDROM %xCB_MEDIA_TYPE_CDMRW" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_ms_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_MS+AGL+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_MS_STD %xCB_MEDIA_TYPE_MS_R" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_sd_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_SD" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_cf_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.type %xCB_MEDIA_TYPE_CF" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_usbpsp_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_USBPSP&sort=+StorageMedia:Common.stat.timeImported" 
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_usbmass_device"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED+Ae+StorageMedia:StorageMedia.deviceType %xCB_DEVICE_TYPE_USBMASS&sort=+StorageMedia:Common.stat.timeImported" 
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg_hdd_contents" 
+				attr="attr_hdd_contents"
+				src="xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_MONTH"
+				/>
+		</Items>
+	</View>
+
+</XMBML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg0" 
+				src="#seg0"
+				/>
+		</Items>
+	</View>
+
+	<View id="seg0">
+		<Attributes>
+			<Table key="N1">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="name"><String>Web Browser</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="commerce">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="name"><String>PLAYSTATION Store</String></Pair>
+				<Pair key="info"><String>commerce</String></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Item class="type:x-xmb/xmlwebbrowser" key="N1" attr="N1" />
+			<Item
+				class="type:x-xmb/xmlnpsignup"
+				key="commerce"
+				attr="commerce" />
+		</Items>
+	</View>
+</XMBML>

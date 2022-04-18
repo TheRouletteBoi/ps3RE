@@ -1,0 +1,13 @@
+release:00.85:
+build:0:tom@tom-linux.rd.scei.sony.co.jp
+system:NA@NA:
+sys_jp:$SYSJPVER$:$SYSJPINF$
+codec:$CODECVER$:$CODECINF$
+emu:$EMUVER$:$EMUINF$
+x3:$X3VER$:$X3INF$
+bdp:$BDPVER$:$BDPINF$
+paf:$PAFVER$:$PAFINF$
+vsh:pNA@NA,vNA@NA,20060706:
+target::DevelopmentTool
+patch:$PATCHVER$:$PATCHINF$
+0

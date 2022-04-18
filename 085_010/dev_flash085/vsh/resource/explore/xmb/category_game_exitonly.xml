@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Items>
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg0"
+				src="#seg0"
+				/>
+
+		</Items>
+	</View>
+
+	<View id="seg0">
+		<Attributes>
+			<Table key="base">
+				<Pair key="icon_fixed_width"><String>181</String></Pair>
+				<Pair key="icon_fixed_height"><String>181</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xcb/game-exit" key="game_exit"  attr="game_exit" />
+		</Items>
+	</View>
+
+</XMBML>
