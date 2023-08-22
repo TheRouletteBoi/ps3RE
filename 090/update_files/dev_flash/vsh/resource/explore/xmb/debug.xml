@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg0" 
+				src="#seg0"
+				/>
+		</Items>
+	</View>
+
+	<View id="seg0">
+
+		<Attributes>
+			<Table key="rss_provider_0">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>HTTP RSS-NAVI_3</String></Pair>
+			</Table>
+			<Table key="host_provider_0">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>host /</String></Pair>
+			</Table>
+			<Table key="app_provider_0">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>app /</String></Pair>
+			</Table>
+			<Table key="VideoDownloader">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Video Downloader</String></Pair>
+				<Pair key="module_name"><String>videodownloader_plugin</String></Pair>
+				<Pair key="module_action"><String>1</String></Pair>
+			</Table>
+			<Table key="CellFont">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Font Plugin Launcher</String></Pair>
+				<Pair key="module_name"><String>cellfont_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="FriendImGameRecv">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im Game Receive test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>GameRecv</String></Pair>
+			</Table>
+			<Table key="FriendImGameSend">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im Game Send test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>GameSend</String></Pair>
+			</Table>
+			<Table key="FriendImAvcInvit">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im Avc Invit test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>FriendImAvcInvit</String></Pair>
+			</Table>
+			<Table key="FriendImAvcSend">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im Avc Send test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>AvcSend</String></Pair>
+			</Table>
+			<Table key="FriendImGameDataSend">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im GameData Send test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>GameDataSend</String></Pair>
+			</Table>
+			<Table key="FriendImGameDataRecv">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im GameData Receive test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>GameDataRecv</String></Pair>
+			</Table>
+			<Table key="FriendImAvcFriendAdd">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend Im Avc Friend Add test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>AvcFriendAdd</String></Pair>
+			</Table>
+			<Table key="BDPlayer">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>BDPlayer Plugin Launcher</String></Pair>
+				<Pair key="module_name"><String>bdp_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="SACDPlayer">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>SACDPlayer Plugin Launcher</String></Pair>
+				<Pair key="module_name"><String>sacd_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="GridTest">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Grid Test</String></Pair>
+				<Pair key="child"><String>grid</String></Pair>
+			</Table>
+			<Table key="Friendim">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friendim Test</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="DownLoader">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>DownLoad Sampler</String></Pair>
+				<Pair key="module_name"><String>download_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="Thumthum">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Thumnail Thumper</String></Pair>
+				<Pair key="module_name"><String>thumthum_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="PRemo">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="name"><String>P-Remo</String></Pair>
+				<Pair key="info"><String></String></Pair>
+			</Table>
+			<Table key="FlashPlayer">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="name"><String>Flash Player[test.swf]</String></Pair>
+				<Pair key="info"><String></String></Pair>
+				<Pair key="path"><String>flash0/vsh/resource/flash/test.swf</String></Pair>
+			</Table>
+			<Table key="Xai">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="title"><String>Xai</String></Pair>
+				<Pair key="module_name"><String>xai_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="Playstationcomjp">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="name"><String>PlayStation.com(Japan)</String></Pair>
+				<Pair key="module_action"><String>http://www.jp.playstation.com/</String></Pair>
+			</Table>
+			<Table key="ToggleExhibitionMode">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>ToggleExhibitionMode</String></Pair>
+				<Pair key="module_name"><String>explore_plugin</String></Pair>
+				<Pair key="module_action"><String>ToggleExhibitionMode</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+			</Table>
+			<Table key="SwitchBackgroundMode">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>SwitchBackgroundMode</String></Pair>
+				<Pair key="module_name"><String>explore_plugin</String></Pair>
+				<Pair key="module_action"><String>SwitchBackgroundMode</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+			</Table>
+			<Table key="SwitchFriendListMode">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>FriendListTestMode</String></Pair>
+				<Pair key="module_name"><String>explore_plugin</String></Pair>
+				<Pair key="module_action"><String>SwitchFriendListMode</String></Pair>
+				<Pair key="bar_action"><String>none</String></Pair>
+			</Table>
+			<Table key="XMBDebugPlugin1">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>call xmb_plugin_debug - test1</String></Pair>
+				<Pair key="module_name"><String>xmb_debug_plugin</String></Pair>
+				<Pair key="module_action"><String>test1</String></Pair>
+				<Pair key="bar_action"><String>hide</String></Pair>
+			</Table>
+			<Table key="RemovableDevices">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>RemovableDevices</String></Pair>
+			</Table>
+			<Table key="PhotoListByYear">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search PhotoList by year</String></Pair>
+			</Table>
+			<Table key="PhotoListByMonth">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search PhotoList by month</String></Pair>
+			</Table>
+			<Table key="PhotoListByDay">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search PhotoList by day</String></Pair>
+			</Table>
+			<Table key="PhotoListByDay">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search PhotoList by day</String></Pair>
+			</Table>
+			<Table key="MusicListByAlbum">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search MusicList by album</String></Pair>
+			</Table>
+			<Table key="MusicListByGenre">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search MusicList by genre</String></Pair>
+			</Table>
+			<Table key="MusicListByArtist">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Search MusicList by artist</String></Pair>
+			</Table>
+			<Table key="base">
+				<Pair key="icon_fixed_width"><String>181</String></Pair>
+				<Pair key="icon_fixed_height"><String>181</String></Pair>
+			</Table>
+		</Attributes>
+
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="host_provider_0" attr="host_provider_0" src="host://localhost/" />
+			<Query class="type:x-xmb/folder-pixmap" key="app_provider_0" attr="app_provider_0" src="app://localhost/query?" />
+			<Item  class="type:x-xmb/module-action" key="VideoDownloader" attr="VideoDownloader" />
+
+			<Item  class="type:x-xmb/module-action" key="CellFont"       attr="CellFont" />
+			<Item  class="type:x-xmb/module-action" key="BDPlayer"       attr="BDPlayer" />
+			<Item  class="type:x-xmb/module-action" key="SACDPlayer"     attr="SACDPlayer" />
+			<Item  class="type:x-xmb/module-action" key="Friendim"       attr="Friendim" />
+			<Item  class="type:x-xmb/module-action" key="DownLoader"     attr="DownLoader" />
+			<Item  class="type:x-xmb/module-action" key="Thumthum"       attr="Thumthum" />
+			<Item  class="type:x-xmb/xmlpremo"      key="PRemo"          attr="PRemo" />
+			<Item  class="type:x-xmb/xmlflashplayer" key="FlashPlayer"   attr="FlashPlayer" />
+			<Item  class="type:x-xmb/module-action" key="Xai" attr="Xai" />
+			<Item  class="type:x-xmb/xmlwebbrowser" key="Playstationcomjp" attr="Playstationcomjp" />
+			<Item  class="type:x-xmb/module-action" key="FriendImGameRecv"       attr="FriendImGameRecv" />
+			<Item  class="type:x-xmb/module-action" key="FriendImGameSend"       attr="FriendImGameSend" />
+			<Item  class="type:x-xmb/module-action" key="FriendImAvcInvit"       attr="FriendImAvcInvit" />
+			<Item  class="type:x-xmb/module-action" key="FriendImAvcSend"        attr="FriendImAvcSend" />
+			<Item  class="type:x-xmb/module-action" key="FriendImGameDataSend"   attr="FriendImGameDataSend" />
+			<Item  class="type:x-xmb/module-action" key="FriendImGameDataRecv"   attr="FriendImGameDataRecv" />
+			<Item  class="type:x-xmb/module-action" key="FriendImAvcFriendAdd"   attr="FriendImAvcFriendAdd" />
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="rss_provider_0"
+				attr="rss_provider_0"
+				src="rss://http://www.rssnavi.jp/rss/?k=caterss3"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="GridTest"
+				attr="GridTest"
+				src="host://localhost/app_home/__fake__/hdd/PhotoThumb/NY"
+			/>
+
+			<Item  class="type:x-xmb/module-action" key="ToggleExhibitionMode" attr="ToggleExhibitionMode" />
+<!--
+			<Item  class="type:x-xmb/module-action" key="SwitchBackgroundMode" attr="SwitchBackgroundMode" />
+-->
+			<Item  class="type:x-xmb/module-action" key="SwitchFriendListMode" attr="SwitchFriendListMode" />
+			<Item  class="type:x-xmb/module-action" key="XMBDebugPlugin1"      attr="XMBDebugPlugin1" />
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="RemovableDevices"
+				attr="RemovableDevices"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&genre=Photo&cond=Ae+StorageMedia:StorageMedia.stat.mediaStatus %xCB_MEDIA_INSERTED"
+			/>
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="PhotoListByYear"
+				attr="PhotoListByYear"
+				src="xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_YEAR"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="PhotoListByMonth"
+				attr="PhotoListByMonth"
+				src="xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_MONTH"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="PhotoListByDay"
+				attr="PhotoListByDay"
+				src="xcb://localhost/query?cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_DAY"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="MusicListByAlbum"
+				attr="MusicListByAlbum"
+				src="xcb://localhost/query?cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_ALBUM"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="MusicListByGenre"
+				attr="MusicListByGenre"
+				src="xcb://localhost/query?cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_PLAYLIST_GENRE"
+			/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="MusicListByArtist"
+				attr="MusicListByArtist"
+				src="xcb://localhost/query?cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_PLAYLIST_ARTIST"
+			/>
+			<Query class="type:x-xcb/game-debug" key="game_debug"  attr="game_debug" />
+		</Items>
+	</View>
+	
+</XMBML>

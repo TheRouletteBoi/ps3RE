@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+			<Table key="view_photo">
+				<Pair key="month"><String>xcb://localhost/query?sort=+PhotoList:Common.titleForSort&cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_MONTH</String></Pair>
+				<Pair key="year"><String>xcb://localhost/query?sort=+PhotoList:Common.titleForSort&cond=Ae+PhotoList:PhotoList.type %xCB_LIST_TYPE_PHOTO_ALBUM_YEAR</String></Pair>
+				<Pair key="all"><String>xcb://localhost/query?ssort=root.sort_selected.photo_all&cond=Aa+Photo:Photo.codec</String></Pair>
+			</Table>
+
+			<Table key="view_music">
+				<Pair key="album"><String>xcb://localhost/query?ssort=root.view_sort_selected.music_album&cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_ALBUM</String></Pair>
+				<Pair key="artist"><String>xcb://localhost/query?sort=+Music:Common.titleForSort&cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_PLAYLIST_ARTIST</String></Pair>
+				<Pair key="genre"><String>xcb://localhost/query?sort=+Music:Common.titleForSort&cond=Ae+MusicList:MusicList.type %xCB_LIST_TYPE_MUSIC_PLAYLIST_GENRE</String></Pair>
+				<Pair key="all"><String>xcb://localhost/query?ssort=root.sort_selected.music_all&cond=Aa+Music:Music.codec</String></Pair>
+			</Table>
+
+			<Table key="view_video">
+				<Pair key="all"><String>xcb://localhost/query?ssort=root.sort_selected.video_all&cond=Aa+Video:Common.titleForSort</String></Pair>
+			</Table>
+
+			<Table key="view_friend">
+				<Pair key="all"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&ssort=root.sort_selected.friend_all&cond=Aa+Person:Common.titleForSort</String></Pair>
+			</Table>
+
+			<Table key="view_selected">
+				<Pair key="photo"><String>view_photo.month</String></Pair>
+				<Pair key="music"><String>view_music.album</String></Pair>
+				<Pair key="video"><String>view_video.all</String></Pair>
+				<Pair key="friend"><String>view_friend.all</String></Pair>
+			</Table>
+
+			<Table key="sort_photo">
+				<Pair key="title_ascend"><String>sort=+Photo:Common.titleForSort+Photo:Common.size+Photo:Common.stat.timeImported</String></Pair>
+				<Pair key="time_created_ascend"><String>sort=+Photo:Common.timeCreated+Photo:Common.titleForSort+Photo:Common.size+Photo:Common.stat.timeImported</String></Pair>
+				<Pair key="time_created_descend"><String>sort=-Photo:Common.timeCreated-Photo:Common.titleForSort-Photo:Common.size-Photo:Common.stat.timeImported</String></Pair>
+				<Pair key="time_imported_ascend"><String>sort=+Photo:Common.stat.timeImported+Photo:Common.titleForSort+Photo:Common.size</String></Pair>
+				<Pair key="time_imported_descend"><String>sort=-Photo:Common.stat.timeImported-Photo:Common.titleForSort-Photo:Common.size</String></Pair>
+			</Table>
+
+			<Table key="sort_music">
+				<Pair key="player_ascend"><String>sort=+Music:MusicServed.playerForSort+Music:MusicServed.listTitleForSort+Music:MusicServed.trackNumber+Music:Common.stat.timeImported</String></Pair>
+				<Pair key="list_title_ascend"><String>sort=+Music:MusicServed.listTitleForSort+Music:MusicServed.trackNumber+Music:Common.stat.timeImported</String></Pair>
+				<Pair key="title_ascend"><String>sort=+Music:Common.titleForSort+Music:MusicServed.playerForSort+Music:MusicServed.listTitleForSort+Music:MusicServed.trackNumber+Music:Common.stat.timeImported</String></Pair>
+				<Pair key="time_imported_ascend"><String>sort=+Music:Common.stat.timeImported</String></Pair>
+				<Pair key="time_imported_descend"><String>sort=-Music:Common.stat.timeImported</String></Pair>
+				<Pair key="genre_ascend"><String>sort=+Music:MusicServed.genre+Music:MusicServed.playerForSort+Music:MusicServed.listTitleForSort+Music:MusicServed.trackNumber+Music:Common.stat.timeImported</String></Pair>
+			</Table>
+
+			<Table key="sort_video">
+				<Pair key="title_ascend"><String>sort=+Video:Common.titleForSort+Video:Common.stat.timeImported+Video:Common.size</String></Pair>
+				<Pair key="time_imported_ascend"><String>sort=+Video:Common.stat.timeImported+Video:Common.size</String></Pair>
+				<Pair key="time_imported_descend"><String>sort=-Video:Common.stat.timeImported-Video:Common.size</String></Pair>
+			</Table>
+
+			<Table key="sort_friend">
+				<Pair key="presence_descend"><String>sort=-Person:Person.stat.presence</String></Pair>
+				<Pair key="title_ascend"><String>sort=+Person:Common.titleForSort</String></Pair>
+			</Table>
+
+			<Table key="sort_selected">
+				<Pair key="photo_month"><String>sort_photo.time_created_ascend</String></Pair>
+				<Pair key="photo_year"><String>sort_photo.time_created_ascend</String></Pair>
+				<Pair key="photo_all"><String>sort_photo.time_created_ascend</String></Pair>
+
+				<Pair key="music_album"><String>sort_music.track_number_ascend</String></Pair>
+				<Pair key="music_artist"><String>sort_music.list_title_ascend</String></Pair>
+				<Pair key="music_genre"><String>sort_music.player_ascend</String></Pair>
+				<Pair key="music_all"><String>sort_music.player_ascend</String></Pair>
+
+				<Pair key="video_all"><String>sort_video.title_ascend</String></Pair>
+
+				<Pair key="friend_all"><String>sort_friend.presence_descend</String></Pair>
+			</Table>
+
+			<Table key="sort_music_album">
+				<Pair key="player_ascend"><String>sort=+MusicList:MusicListServed.playerForSort</String></Pair>
+				<Pair key="list_title_ascend"><String>sort=+MusicList:Common.titleForSort</String></Pair>
+			</Table>
+
+			<Table key="view_sort_selected">
+				<Pair key="music_album"><String>sort_music_album.list_title_ascend</String></Pair>
+			</Table>
+
+		</Attributes>
+
+		<Items>
+			<Item  key="view_photo"         attr="view_photo" />
+			<Item  key="view_music"         attr="view_music" />
+			<Item  key="view_video"         attr="view_video" />
+			<Item  key="view_friend"        attr="view_friend" />
+			<Item  key="view_selected"      attr="view_selected" />
+			<Item  key="sort_photo"         attr="sort_photo" />
+			<Item  key="sort_music"         attr="sort_music" />
+			<Item  key="sort_video"         attr="sort_video" />
+			<Item  key="sort_friend"        attr="sort_friend" />
+			<Item  key="sort_selected"      attr="sort_selected" />
+			<Item  key="sort_music_album"   attr="sort_music_album" />
+			<Item  key="view_sort_selected" attr="view_sort_selected" />
+		</Items>
+
+	</View>
+</XMBML>

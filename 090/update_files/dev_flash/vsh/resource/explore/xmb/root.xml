@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="segmentize">
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg0" 
+				src="#root"
+				/>
+		</Items>
+	</View>
+	<View id="root">
+		<Attributes>
+			<Table key="CellFont">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Font Plugin Launcher</String></Pair>
+				<Pair key="module_name"><String>cellfont_plugin</String></Pair>
+				<Pair key="module_action"><String>0</String></Pair>
+			</Table>
+			<Table key="XMBDebugPlugin1">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>call xmb_plugin_debug - test1</String></Pair>
+				<Pair key="module_name"><String>xmb_debug_plugin</String></Pair>
+				<Pair key="module_action"><String>test1</String></Pair>
+				<Pair key="bar_action"><String>hide</String></Pair>
+			</Table>
+			<Table key="user">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>User</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="photo">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Photo</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="music">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Music</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="video">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Video</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="game">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Game</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="network">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Network</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="friend">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>Friend</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="avchat">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>AVChat</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+			<Table key="debug">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair>
+				<Pair key="title"><String>debug</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+		</Attributes>
+
+		<Items>
+			<Item  class="type:x-xmb/module-action" key="CellFont"       attr="CellFont" />
+			<Item  class="type:x-xmb/module-action" key="XMBDebugPlugin1"      attr="XMBDebugPlugin1" />
+			<Query key="user"    class="type:x-xmb/folder-pixmap" attr="user"    src="xmb://localhost/%flash/xmb/category_user.xml#root"    />
+			<Query key="photo"   class="type:x-xmb/folder-pixmap" attr="photo"   src="xmb://localhost/%flash/xmb/category_photo.xml#root"   />
+			<Query key="music"   class="type:x-xmb/folder-pixmap" attr="music"   src="xmb://localhost/%flash/xmb/category_music.xml#root"   />
+			<Query key="video"   class="type:x-xmb/folder-pixmap" attr="video"   src="xmb://localhost/%flash/xmb/category_video.xml#root"   />
+			<Query key="game"    class="type:x-xmb/folder-pixmap" attr="game"    src="xmb://localhost/%flash/xmb/category_game.xml#root"    />
+			<Query key="network" class="type:x-xmb/folder-pixmap" attr="network" src="xmb://localhost/%flash/xmb/category_network.xml#root" />
+			<Query key="friend"  class="type:x-xmb/folder-pixmap" attr="friend"  src="xmb://localhost/%flash/xmb/category_friend.xml#root"  />
+			<Query key="avchat"  class="type:x-xmb/folder-pixmap" attr="avchat"  src="xmb://localhost/%flash/xmb/category_avchat.xml#root"  />
+			<Query key="debug"   class="type:x-xmb/folder-pixmap" attr="debug"   src="xmb://localhost/%flash/xmb/debug.xml#root"            />
+		</Items>
+	</View>
+</XMBML>

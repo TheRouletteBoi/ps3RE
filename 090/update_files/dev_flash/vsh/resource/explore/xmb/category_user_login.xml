@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+			<Table key="user_provider_0"/>
+		</Attributes>
+		<Items>
+			<Query class="type:x-xmb/folder-pixmap" key="user_provider_0" attr="user_provider_0" src="user://localhost/users" />
+		</Items>
+	</View>
+</XMBML>

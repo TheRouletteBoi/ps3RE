@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mimetypes>
+
+	<entry>
+		<mimetype>sample/type</mimetype>
+		<plugin>hogehoge_plugin</plugin>
+		<userdata>data</userdata>
+	</entry>
+
+	<entry>
+		<mimetype>sample2/type</mimetype>
+		<plugin>hogehoge2_plugin</plugin>
+		<userdata>data2</userdata>
+	</entry>
+
+</mimetypes>

@@ -1,0 +1,16 @@
+/* *******************************************
+ * Copyright 2004 Sony Corporation
+ *
+ * $Id: quirk.css,v 1.2 2005/07/06 11:39:30 sugino Exp $
+ * ********************************************/
+
+/* Quirk: bug 3984 */
+table {
+	font-size: medium;
+}
+
+/* bug 4312 */
+ul {
+	margin-left: 0px;
+	padding-left: 40px;
+}
