@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+			<Table key="seg_nas">
+				<Pair key="focus_priority"><String>-1</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg_fixed_items" 
+				src="sel://localhost/nplogin?category_friend.xml#seg_fixed_items"
+				/>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="seg_chat"
+				src="chat://localhost/roomlist?"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_message_box"
+				src="sel://localhost/npaccount?category_friend.xml#seg_message_box"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_nas"
+				attr="seg_nas"
+				src="#seg_nas"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="AllFriend"
+				src="sel://localhost/ex?root.view_selected.friend" />
+		</Items>
+	</View>
+
+	<View id="seg_fixed_items">
+		<Attributes>
+
+			<Table key="Ignore">
+				<Pair key="icon_rsc"><String>item_tex_IgnoreList</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendBlock</String></Pair>
+				<Pair key="title_rsc"><String>msg_ignore_list</String></Pair>
+				<Pair key="str_noitem"><String>msg_error_no_player</String></Pair>
+			</Table>
+
+			<Table key="new_friend">
+				<Pair key="icon_rsc"><String>item_tex_NewFriend</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendAdd</String></Pair>
+				<Pair key="title_rsc"><String>msg_friend_register</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>new_friend</String></Pair>
+			</Table>
+
+		</Attributes>
+		<Items>
+
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="Ignore"
+				attr="Ignore"
+				src="xcb://localhost/query?table=MMS_MEDIA_TYPE_HDD&sort=+BlockedPlayer:Common.titleForSort&cond=Aa+BlockedPlayer:Common.titleForSort" />
+
+			<Item  class="type:x-xmb/module-action"   key="new_friend"       attr="new_friend" />
+
+		</Items>
+	</View>
+
+	<View id="seg_message_box">
+		<Attributes>
+			<Table key="message_box">
+				<Pair key="icon_rsc"><String>item_tex_Messages</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendMessageBox</String></Pair>
+				<Pair key="title_rsc"><String>msg_msg_box</String></Pair>
+				<Pair key="child"><String>segment</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="message_box" 
+				attr="message_box"
+				src="#seg_message_object"
+				/>
+		</Items>
+	</View>
+
+	<View id="seg_message_object">
+		<Items>
+			<Query 
+				class="type:x-xmb/folder-pixmap" 
+				key="message_box" 
+				src="#message_boxes"
+				/>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_message_box"
+				src="sel://localhost/nplogin?category_friend.xml#seg_new_message"
+				/>
+		</Items>
+	</View>
+
+	<View id="message_boxes">
+		<Attributes>
+			<Table key="ReceiveMessage">
+				<Pair key="icon_rsc"><String>item_tex_InBox</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendMessageBoxReceived</String></Pair>
+				<Pair key="title_rsc"><String>msg_received_box</String></Pair>
+				<Pair key="info"><String>receive</String></Pair>
+			</Table>
+			<Table key="SendMessage">
+				<Pair key="icon_rsc"><String>item_tex_OutBox</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendMessageBoxSent</String></Pair>
+				<Pair key="title_rsc"><String>msg_sent_box</String></Pair>
+				<Pair key="info"><String>send</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item
+				class="type:x-xmb/xmlmessagelist"
+				attr="ReceiveMessage"
+				key="ReceiveMessage" />
+			<Item
+				class="type:x-xmb/xmlmessagelist"
+				attr="SendMessage"
+				key="SendMessage" />
+		</Items>
+	</View>
+
+	<View id="seg_new_message">
+		<Attributes>
+			<Table key="new_message">
+				<Pair key="icon_rsc"><String>item_tex_NewMessage</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendMessageCreate</String></Pair>
+				<Pair key="title_rsc"><String>msg_new_msg</String></Pair>
+				<Pair key="module_name"><String>friendim_plugin</String></Pair>
+				<Pair key="module_action"><String>new_message</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Item  class="type:x-xmb/module-action"   key="new_message"       attr="new_message" />
+		</Items>
+	</View>
+
+	<View id="seg_nas">
+		<Attributes>
+			<Table key="registration">
+				<Pair key="icon_rsc"><String>item_tex_browser</String></Pair>
+				<Pair key="icon_notation"><String>WNT_XmbItemFriendSignUp</String></Pair>
+				<Pair key="name"><String>NP Sign Up</String></Pair>
+				<Pair key="info"><String>registration</String></Pair>
+ 			</Table>
+		</Attributes>
+		<Items>
+			<Item
+				class="type:x-xmb/xmlnpsignup"
+				key="registration"
+				attr="registration" />
+		</Items>
+	</View>
+
+</XMBML>

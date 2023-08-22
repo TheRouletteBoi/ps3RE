@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XMBML version="1.0">
+	<View id="root">
+		<Attributes>
+			<Table key="AllFriend">
+				<Pair key="view0"><String>xcb://localhost/query?table=MMS_MEDIA_TYPE_SYSTEM&sort=+Person:Common.titleForSort&cond=Aa+Person:Common.titleForSort</String></Pair>
+			</Table>
+		</Attributes>
+		<Items>
+			<Query
+				class="type:x-xmb/folder-pixmap"
+				key="seg_fixed_items"
+				src="#seg_fixed_items"
+				/>
+		</Items>
+	</View>
+
+	<View id="seg_fixed_items">
+		<Attributes>
+
+			<Table key="avc_waitInvite">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>wait</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__waitAVChatInvite</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_orikaeshi">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>orikaeshi</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__orikaeshi</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_bye">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>bye</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__bye</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_sound_only">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>sound only</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__sound_only</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_mute_audio">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>mute audio</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__mute_audio</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_mute_video">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>mute video</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__mute_video</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_layout_check">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>layout_check</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__layout_check</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_volumeup">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>volumeUp</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__volumeup</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_volumedown">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>volumeDown</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__volumedown</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+			<Table key="avc_invitation">
+				<Pair key="icon_rsc"><String>item_tex_ms_icon</String></Pair> <!-- XMB上に表示されるアイコン -->
+				<Pair key="title"><String>invitaion</String></Pair> <!-- XMB上に表示されるラベル -->
+				<Pair key="module_name"><String>avc_plugin</String></Pair> <!-- 引数を渡したいplugin名を書く-->
+				<Pair key="module_action"><String>__invitation</String></Pair> <!-- ここにpluginに渡る引数を書く -->
+			</Table>
+		</Attributes>
+
+		<Items>
+			<Item  class="type:x-xmb/module-action" key="avc_waitInvite" attr="avc_waitInvite" />
+			<Item  class="type:x-xmb/module-action" key="avc_orikaeshi" attr="avc_orikaeshi" />
+			<Item  class="type:x-xmb/module-action" key="avc_bye" attr="avc_bye" />
+			<Item  class="type:x-xmb/module-action" key="avc_sound_only" attr="avc_sound_only" />
+			<Item  class="type:x-xmb/module-action" key="avc_mute_audio" attr="avc_mute_audio" />
+			<Item  class="type:x-xmb/module-action" key="avc_mute_video" attr="avc_mute_video" />
+			<Item  class="type:x-xmb/module-action" key="avc_layout_check" attr="avc_layout_check" />
+			<Item  class="type:x-xmb/module-action" key="avc_volumeup" attr="avc_volumeup" />
+			<Item  class="type:x-xmb/module-action" key="avc_volumedown" attr="avc_volumedown" />
+			<Item  class="type:x-xmb/module-action" key="avc_invitation" attr="avc_invitation" />
+		</Items>
+
+	</View>
+
+</XMBML>
