@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<UpdatePackageList>
+
+        <Header>
+                <Version>00.90</Version>
+                <Build>400</Build>
+                <UplFormatVersion>1.00</UplFormatVersion>
+                <Product>TOOL</Product>
+                <Region>JAPAN</Region>
+        </Header>
+
+        <Package>
+                <Type>ProgramRevoke</Type>
+                <FileName>RL_FOR_PROGRAM.img</FileName>
+        </Package>
+
+        <Package>
+                <Type>PackageRevoke</Type>
+                <FileName>RL_FOR_PACKAGE.img</FileName>
+        </Package>
+
+        <Package>
+                <Type>CoreOs</Type>
+                <FileName>CORE_OS_PACKAGE.pkg</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_0.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_1.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_2.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_3.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_4.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_5.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_6.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_7.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>VSH</Type>
+                <FileName>dev_flash_8.tar.aa.2006_08_03_113244</FileName>
+        </Package>
+
+        <Package>
+                <Type>BD</Type>
+                <FileName>BDIT_FIRMWARE_PACKAGE.pkg</FileName>
+        </Package>
+
+        <Package>
+                <Type>BD</Type>
+                <FileName>BDPT_FIRMWARE_PACKAGE_301R.pkg</FileName>
+        </Package>
+
+        <Package>
+                <Type>BD</Type>
+                <FileName>BDPT_FIRMWARE_PACKAGE_303R.pkg</FileName>
+        </Package>
+
+</UpdatePackageList>
