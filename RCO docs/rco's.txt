@@ -1,0 +1,82 @@
+
+vsh.self from 4.84.2 d-rex
+
+
+Valid rco objects from sub_367440:
+
+Id     Hex     Rcomage         Sony
+2050 - 0x802 - Plane         - PhPlane
+2051 - 0x803 - Button        - PhButton
+2052 - 0x804 - XMenu         - PhXmBar
+2054 - 0x806 - XList         - PhXmList
+2055 - 0x807 - Progress      - PhProgress
+2056 - 0x808 - Scroll        - PhScroll
+2057 - 0x809 - MList         - PhMenuList
+2061 - 0x80D - Text          - PhText
+2063 - 0x80F - Spin          - PhItemSpin
+2065 - 0x811 - ItemSpin      - PhNumSpin
+2066 - 0x812 - Group         - PhWidget
+2067 - 0x813 - LList         - PhList
+2069 - 0x815 - Edit          - PhIPAddr
+2070 - 0x816 - Clock         - PhClock
+2071 - 0x817 - IList         - PhInfoList
+2073 - 0x819 - Icon          - PhXmItem
+2074 - 0x81A - UButton       - PhButton too? From psdevwiki: "This is an improved version of Button"
+2076 - 0x81C - CheckBoxGroup - PhCheckBoxList
+2078 - 0x81E - Meter         - PhLevelMeter
+2079 - 0x81F - EditBox       - PhText too? Via sprx we can request the keyboard by calling a virtual method from a PhText object (see last note)
+
+Rco objects parents:
+
+Id     Hex     Rcomage      Sony
+2048 - 0x800 - ObjectTree - PhWidget called "phi_root", created by vsh.self in paf::PhApplication::InitApp()
+2049 - 0x801 - Page       - PhScene
+
+
+Notes:
+	In case of invalid object id, sub_367440 outputs:
+	  printf("Error: unknown widget type. (type=%d).\n", widget_type);
+	  
+	PAF_Resource_DOMGetNodeType returns the widget type (ie: 0x802)
+	PAF_Resource_DOMGetNodeID return the widget name (ie: "page_autooff_guide")
+	
+	Codenames are retrieved from the first method of the created object virtual table [virtual const char* WidgetType()].
+	
+	Requesting keyboard via a PhText object in C++:
+		=========================================
+		m_KeyboardTextField = new paf::PhText(g_Helpers.page_autooff_guide);
+		m_KeyboardTextField->SetName("KeyboardTextField")
+			.SetColor(paf::vec4())
+			.SetStyle(0x13, int(0x70));
+			
+		m_KeyboardTextField->SetText(m_InitText);
+
+		// Set keyboard callback
+		m_KeyboardTextField->SetCallBack(0x2000F, [](paf::PhWidget* pWidget, paf::PhEvent* pEvent, void* unknown)
+		{
+			if (g_Keyboard.m_IsRunning && g_Keyboard.m_KeyboardTextField)
+			{
+				g_Keyboard.m_IsRunning = false;
+
+				g_Keyboard.m_KeyboardTextField->GetText(g_Keyboard.m_Result);
+				if (g_Keyboard.m_Result != g_Keyboard.m_InitText)
+					g_Keyboard.m_Callback(g_Keyboard.m_Result);
+			}
+
+			g_Keyboard.m_CallbackExecuted = true;
+		}, nullptr);
+
+		paf::PhEditText::OskParam oskParam = paf::PhEditText::OskParam::OskParam();
+
+		// Set keyboard parameters
+		oskParam.title = title;
+		*(int*)(m_KeyboardTextField + 0x24) |= 0x1B0;
+		m_KeyboardTextField->SetStyle(52, true);
+		m_KeyboardTextField->SetStyle(63, true);
+
+		// Set the max length of the keyboard output
+		m_KeyboardTextField->SetStyle(62, maxLength - 1);
+
+		// Spawn keyboard
+		m_KeyboardTextField->BeginEditText(oskParam, 0);
+		=========================================

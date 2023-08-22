@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="ASCII"?>
+<PhWidget name="phi_root">
+	<PhScene name="page_default_theme">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="page_autooff_guide">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="page_busy">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="busy_icon_shadow"></PhPlane>
+		<PhPlane name="busy_icon_anim1"></PhPlane>
+		<PhPlane name="busy_icon">
+			<PhPlane name="busy_short"></PhPlane>
+			<PhPlane name="busy_long"></PhPlane>
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="page_pointcursor">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="cursor">
+			<PhPlane name="shadow_plane"></PhPlane>
+			<PhPlane name="cursor_plane"></PhPlane>
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="page_null">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="page_notification">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="notification_prerender">
+			<PhText name="notification_prerender_00a"></PhText>
+			<PhText name="notification_prerender_01a"></PhText>
+			<PhText name="notification_prerender_02a"></PhText>
+			<PhText name="notification_prerender_03a"></PhText>
+			<PhText name="notification_prerender_04a"></PhText>
+			<PhText name="notification_prerender_05a"></PhText>
+			<PhText name="notification_prerender_0b"></PhText>
+			<PhText name="notification_prerender_1b"></PhText>
+			<PhText name="notification_prerender_2b"></PhText>
+		</PhPlane>
+
+		<PhPlane name="notification_a">
+			<PhPlane name="notification_icon_shadow_a"></PhPlane>
+			<PhPlane name="notification_icon_a"></PhPlane>
+			<PhText name="notification_message_a"></PhText>
+		</PhPlane>
+
+		<PhPlane name="notification_b">
+			<PhPlane name="notification_icon_shadow_b"></PhPlane>
+			<PhPlane name="notification_icon_b"></PhPlane>
+			<PhText name="notification_label0_b"></PhText>
+			<PhText name="notification_label1_b"></PhText>
+			<PhText name="notification_label2_b"></PhText>
+		</PhPlane>
+
+		<PhText name="ip_text"></PhText>
+	</PhScene>
+
+	<PhScene name="page_btnnavi">
+		<PhCamera name="camera"></PhCamera>
+		<PhWidget name="btnbar">
+			<PhPlane name="cross_shadow">
+				<PhPlane name="cross_icon"></PhPlane>
+				<PhText name="cross_label"></PhText>
+			</PhPlane>
+
+			<PhPlane name="circle_shadow">
+				<PhPlane name="circle_icon"></PhPlane>
+				<PhText name="circle_label"></PhText>
+			</PhPlane>
+
+			<PhPlane name="triangle_shadow">
+				<PhPlane name="triangle_icon"></PhPlane>
+				<PhText name="triangle_label"></PhText>
+			</PhPlane>
+
+			<PhPlane name="rectangle_shadow">
+				<PhPlane name="rectangle_icon"></PhPlane>
+				<PhText name="rectangle_label"></PhText>
+			</PhPlane>
+
+		</PhWidget>
+
+	</PhScene>
+
+	<PhScene name="page_btnnavi">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="msgdlg_line_top"></PhPlane>
+		<PhPlane name="msgdlg_line_btm"></PhPlane>
+		<PhPlane name="busy_icon_shadow"></PhPlane>
+		<PhPlane name="busy_icon"></PhPlane>
+		<PhWidget name="btnbar">
+			<PhPlane name="cross_shadow">
+				<PhPlane name="cross_icon"></PhPlane>
+				<PhText name="cross_label"></PhText>
+			</PhPlane>
+
+			<PhPlane name="circle_shadow">
+				<PhPlane name="circle_icon"></PhPlane>
+				<PhText name="circle_label"></PhText>
+			</PhPlane>
+
+		</PhWidget>
+
+	</PhScene>
+
+	<PhScene name="page_xmb">
+		<PhCamera name="camera"></PhCamera>
+		<PhXmBar name="xmenu">
+			<PhWidget name="xmbar_orig">
+				<PhXmList name="list_user">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9">
+							<PhPlane name="indicator_login"></PhPlane>
+						</PhXmItem>
+
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_sysconf">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_photo">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_music">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_video">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_tv">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_game">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_network">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8">
+							<PhText name="premo_explanation"></PhText>
+						</PhXmItem>
+
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_psn">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+				<PhXmList name="list_friend">
+					<PhWidget name="xlist_orig">
+						<PhXmItem name="item0"></PhXmItem>
+						<PhXmItem name="item1"></PhXmItem>
+						<PhXmItem name="item2"></PhXmItem>
+						<PhXmItem name="item3"></PhXmItem>
+						<PhXmItem name="item4"></PhXmItem>
+						<PhXmItem name="item5"></PhXmItem>
+						<PhXmItem name="item6"></PhXmItem>
+						<PhXmItem name="item7"></PhXmItem>
+						<PhXmItem name="item8"></PhXmItem>
+						<PhXmItem name="item9"></PhXmItem>
+						<PhXmItem name="item10"></PhXmItem>
+					</PhWidget>
+
+					<PhPlaneDiv name=""></PhPlaneDiv>
+					<PhText name="common_gui_scroll_text"></PhText>
+				</PhXmList>
+
+			</PhWidget>
+
+		</PhXmBar>
+
+	</PhScene>
+
+	<PhScene name="page_xmb_indicator">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="indicator">
+			<PhPlane name="indi_base"></PhPlane>
+			<PhPlane name="indi_adjust">
+				<PhText name="clock"></PhText>
+				<PhPlane name="message"></PhPlane>
+				<PhPlane name="chat"></PhPlane>
+				<PhPlane name="online">
+					<PhText name="online_num"></PhText>
+				</PhPlane>
+
+				<PhPlane name="avatar"></PhPlane>
+				<PhPlane name="plus"></PhPlane>
+			</PhPlane>
+
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="expage_explore_bg">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="expage_explore_list">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="expage_explore_fg">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="expage_message_dialog">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="page_dialog_base">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="main">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+	<PhScene name="page_xmb_menu">
+		<PhCamera name="camera"></PhCamera>
+		<PhXmList name="xlist_xmb_menu">
+			<PhWidget name="xlist_orig">
+				<PhXmItem name="item0"></PhXmItem>
+				<PhXmItem name="item1"></PhXmItem>
+				<PhXmItem name="item2">
+					<PhText name="label2_text">
+						<PhText name="label2_text_ellipsis"></PhText>
+					</PhText>
+
+				</PhXmItem>
+
+				<PhXmItem name="item3"></PhXmItem>
+				<PhXmItem name="item4"></PhXmItem>
+				<PhXmItem name="item5"></PhXmItem>
+				<PhXmItem name="item6"></PhXmItem>
+				<PhXmItem name="item7"></PhXmItem>
+				<PhXmItem name="item8"></PhXmItem>
+				<PhXmItem name="item9"></PhXmItem>
+				<PhXmItem name="item10"></PhXmItem>
+				<PhXmItem name="item11"></PhXmItem>
+				<PhXmItem name="item12"></PhXmItem>
+			</PhWidget>
+
+			<PhPlane name=""></PhPlane>
+			<PhText name="label2_text_ex"></PhText>
+			<PhText name="common_gui_scroll_text"></PhText>
+		</PhXmList>
+
+	</PhScene>
+
+	<PhScene name="page_infobar">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="infobar">
+			<PhPlane name="infoicon_shadow"></PhPlane>
+			<PhPlane name="infoicon"></PhPlane>
+			<PhText name="infotext1"></PhText>
+			<PhText name="infotext2"></PhText>
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="wizard_background">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="plane_wizard_background">
+			<PhPlane name="plane_wizard_background_cover"></PhPlane>
+			<PhPlane name="plane_wizard_arrow_left">
+				<PhPlane name="plane_wizard_arrow_left_shadow"></PhPlane>
+			</PhPlane>
+
+			<PhPlane name="plane_wizard_arrow_right">
+				<PhPlane name="plane_wizard_arrow_right_shadow"></PhPlane>
+			</PhPlane>
+
+			<PhPlane name="plane_wizard_separation_upper"></PhPlane>
+			<PhPlane name="plane_wizard_separation_lower"></PhPlane>
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="page_core_dump_utility_option">
+		<PhCamera name="camera"></PhCamera>
+		<PhPlane name="plane_core_dump_utility_option">
+			<PhCheckBoxList name="clist_core_dump_option">
+				<PhWidget name="">
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelPrim name=""></PhLabelPrim>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+					<PhLabelText name=""></PhLabelText>
+				</PhWidget>
+
+				<PhScroll name="scroll_core_dump_option"></PhScroll>
+			</PhCheckBoxList>
+
+			<PhButton name="button_core_dump_enter"></PhButton>
+		</PhPlane>
+
+	</PhScene>
+
+	<PhScene name="blur">
+		<PhCamera name="camera"></PhCamera>
+	</PhScene>
+
+</PhWidget>
+
+
