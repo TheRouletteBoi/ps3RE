@@ -1,0 +1,1589 @@
+
+
+/*
+
+
+when attach using FURY
+
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00D5AA0
+r5: 0x0
+r6: 0x2
+r7: 0x200400E4
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00D5AA0
+r5: 0xD00D5AA8
+r6: 0x101A4CC8
+r7: 0x565000
+r8: 0x7586D8
+r9: 0xD00D5AA0
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x700
+r4: 0x1010200
+r5: 0xD00D59B0
+r6: 0x2
+r7: 0x0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x0
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+
+when I pressed start on FURY
+
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x65196C
+r6: 0x4
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4CAC30
+r6: 0x4
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4CAC0C
+r6: 0x4
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4CAC1C
+r6: 0x4
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0xCCC
+r4: 0x2013D468
+r5: 0xB0
+r6: 0x2
+r7: 0x200400E4
+r8: 0x0
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00D5AA0
+r5: 0x0
+r6: 0x2
+r7: 0x200400E4
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00D5AA0
+r5: 0xD00D5AA8
+r6: 0x101A4CC8
+r7: 0x565000
+r8: 0x7586D8
+r9: 0xD00D5AA0
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x700
+r4: 0x1010200
+r5: 0xD00D59B0
+r6: 0x2
+r7: 0x0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x0
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x977
+r4: 0x1010200
+r5: 0x7C000
+r6: 0x100
+r7: 0x2F
+r8: 0x1
+r9: 0xD00D5B90
+r10: 0xD00D5B98
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD00ED000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD00F3000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD00F9000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD00FF000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0105000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD010B000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0111000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0117000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD011D000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0123000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0129000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD012F000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0135000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD013B000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0141000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0147000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD014D000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0153000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0159000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD015F000
+r6: 0x6000
+r7: 0x200842D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD0165000
+r6: 0x3B10
+r7: 0x2017C040
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10044000         \\ hex: 00000023 400CCCCD 4465616E 64726564 75626C69 6E000000  //  ascii:   ...#@...Deandredublin...
+r6: 0x4
+r7: 0x2013D6A0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10044004
+r6: 0x4
+r7: 0x2013D6A0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10044008              // Deandredublin
+r6: 0xE
+r7: 0x200ABDB0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x357
+r4: 0x1010200
+r5: 0xD00D5B60
+r6: 0xD00D5B64
+r7: 0x78000
+r8: 0x7D0
+r9: 0x4000
+r10: 0xD00D5B70
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250              // 0000016A A4EFF32D
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250              // 0000016A A4EFF32D
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2013D6A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x201B77C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10041250
+r6: 0x8
+r7: 0x2016CF70
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x101004B
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+when connected using fury
+
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000249100000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000249200000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x00010CAA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000249100000000
+
+
+
+
+--------------------------------------------------------------------------
+
+
+when attached using fury
+
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000152700000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000028700000000
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------
+
+when I pressed start menu in FURY
+
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000249100000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000265E00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000249200000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0001346100000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000600100000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000240F00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x00001D8B00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000100F00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000152700000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000028700000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000006BE00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000160000000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20149E04  0x0000016A00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20142584  0x000001BA00000000
+ccapi_decrypt_packet
+r3: 0x2013BD10
+r4: 0x0
+r5: 0xFFFFFFFF
+r6: 0x0
+r7: 0xFFFFFFFF
+r8: 0x0
+r9: 0x7D6100
+r10: 0x1020078
+ret: 0x20270394  0x0000334100000000
+*/
+
+
+
+
+
+
+
+/*
+FURY EBOOT  vs ORIGINAL default_mp elf
+
+he changes replaced most of them but no all of them
+li        r4, 0  // 38 80 00 00
+to 
+lis       r4, 0  // 3C 80 00 00 
+
+also
+
+li        r3, 0  // 38 60 00 00
+to
+lis       r3, 0  // 3C 60 00 00
+
+
+
+
+4CABD8 = 48 00 00 98		b         loc_4CAC70
+
+4F1164 = 48 4C AB DF		bla       loc_4CABDC
+
+4CABDC = 
+F8 21 FF 71 7C 08 02 A6  FB 81 00 70 F8 01 00 A0
+FB A1 00 78 48 11 C1 71  3D 20 00 4D 7C 7D 1B 78
+3C 80 00 00 83 89 AC 68  7F 83 E3 78 48 02 68 0D
+3C 60 00 03 38 80 10 00  38 A0 00 00 38 C0 00 05
+60 63 20 00 48 02 78 7D  38 80 10 00 38 A0 00 00
+38 C0 00 00 3C 60 00 30  48 02 78 69 7F 83 E3 78
+3C 80 00 00 48 02 68 91  E8 01 00 A0 EB 81 00 70
+7B A3 00 20 7C 08 03 A6  EB A1 00 78 38 21 00 90
+4E 80 00 20
+
+4CAC60 = 24 24 00 00 00 00 00 00  00 4C AC 60 60 00 00 00 // addition to the function above ^
+
+
+
+
+// fury eboot vs fury dump
+
+
+10BD4               li        r6, 0				// 38 C0 00 00
+to 
+10BD4               xor       r6, r5, r5		// 7C A6 2A 78
+
+
+12050               li        r5, 0				// 38 A0 00 00
+to 
+12050               xor       r5, r5, r5		// 7C A5 2A 78
+
+
+121D4               li        r7, 0				// 38 E0 00 00
+to 
+121D4               xor       r7, r5, r5		// 7C A7 2A 78
+
+
+
+3C9C4                bl        sub_10080		// 4B FD 36 BD
+
+151530               li        r3, 1			// 38 60 00 01
+
+1A7080               bl        sub_10080		// 4B E6 90 01
+
+1AF5E0               bl        sub_10080		// 4B E6 0A A1
+
+1AF6F8               bl        sub_10080		// 4B E6 09 89
+
+1AF72C               bl        sub_10080		// 4B E6 09 55
+
+1DE224               bl        sub_10080		// 4B E3 1E 5D
+
+1E0F68               bl        sub_10080		// 4B E2 F1 19
+
+208E50               bl        sub_10080		// 4B E0 72 31
+
+20CB80               bl        sub_10080		// 4B E0 35 01 
+20CB84               bl        sub_10080		// 4B E0 34 FD 
+20CB88               bl        sub_10080		// 4B E0 34 F9 
+20CB8C               bl        sub_10080		// 4B E0 34 F5 
+20CB90               bl        sub_10080		// 4B E0 34 F1
+
+20D16C               bl        sub_10080		// 4B E0 2F 15 
+20D170               bl        sub_10080		// 4B E0 2F 11 
+20D174               bl        sub_10080		// 4B E0 2F 0D
+
+21BE34               bl        sub_10080		// 4B DF 42 4D
+
+227714               bl        sub_10080		// 4B DE 89 6D
+
+227788               bl        sub_10080		// 4B DE 88 F9
+
+2277C8               bl        sub_10080		// 4B DE 88 B9
+
+227C8C               bl        sub_10080		// 4B DE 83 F5
+
+252AA4               blr
+
+31B660               b         loc_31B66C		// 48 00 00 0C
+
+31D0E0               nop
+
+31D0F4               nop
+
+34EB64               b         loc_34EB70		// 48 00 00 0C
+
+350A9C               nop
+
+350B24               nop
+
+370420				 bl         sub_10080        // 4B C9 FC 61
+
+337164			 	bl         sub_10080         // 4B CD 8F 1D
+3371BC			 	bl         sub_10080         // 4B CD 8E C5
+400FCC				bl         sub_10080         // 4B C0 F0 B5
+401A8C				bl         sub_10080         // 4B C0 E5 F5
+
+
+3BE140               nop
+
+3BE23C               nop
+
+4093E0               nop
+4093E4               nop
+4093E8               nop
+4093EC               bl        sub_10080		// 4B C0 6C 95
+
+
+40954C               nop
+409550               sth       r4, 0x180+var_150+2(r1)	// B0 81 00 32 
+409554               mr        r4, r5						// 7C A4 2B 78
+409558               mr        r5, r3						// 7C 65 1B 78
+40955C               ld        r3, 0x180+var_150(r1)		// E8 61 00 30
+409560               srdi      r3, r3, 32					// 78 63 00 22
+409564               bl        sub_10080					// 4B C0 6B 1D
+
+
+
+45F380               li        r3, 1						// 38 60 00 01
+
+
+55A2A8               li        r3, 1						// 38 60 00 01 4E 80 00 20
+55A2AC               blr
+
+55A2F4               li        r3, 1						// 38 60 00 01 4E 80 00 20
+55A2F8               blr
+
+7B2549		  		 00 00 00 00
+
+
+crashes here when you load it with another eboot 0xD0146EA8
+*/
+
+
+void write_payload(uint32_t start_addr, const char *file);
+
+void inject_aw_fury()
+{
+   write_payload(AW_FURY_START_ADR, "/dev_usb000/plugins/fury_by_enstone_220.bin");
+}

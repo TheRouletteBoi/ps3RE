@@ -1,0 +1,1673 @@
+
+
+
+
+
+
+
+
+
+
+
+/*
+GTA V RECOVERY TOOL
+
+
+// address to call
+0x4150000C = 0x424218
+
+
+0x41500014 = 0x00000000
+
+
+// write rpc func
+0xD7DC0 = 7C 08 02 A6 F8 01 00 10 F8 21 FE 01 FB E1 00 C0 FB C1 00 C8 FB A1 00 D0 FB 81 00 D8 7C 5C 13 78 3B E0 00 00 67 FF 41 50 63 FF 00 00 E8 7F 00 00 2C 03 00 00 41 82 00 D4 7F EB FB 78 E8 6B 00 09 7C 68 03 A6 E8 6B 00 09 2C 23 00 00 41 82 00 08 7C 62 1B 78 E8 6B 00 09 7D 7E 5B 78 E8 8B 00 09 E8 AB 00 09 E8 CB 00 09 E8 EB 00 09 E9 0B 00 09 E9 2B 00 09 E9 4B 00 09 E9 8B 00 09 F9 81 00 70 E9 8B 00 09 F9 81 00 78 E9 8B 00 09 F9 81 00 80 E9 8B 00 09 F9 81 00 88 E9 8B 00 09 F9 81 00 90 E9 8B 00 09 F9 81 00 98 E9 8B 00 09 F9 81 00 A0 E9 8B 00 09 F9 81 00 A8 E9 8B 00 09 F9 81 00 B0 E9 8B 00 09 F9 81 00 B8 CC 2B 00 08 7D 7D 5B 78 CC 4B 00 08 CC 6B 00 08 CC 8B 00 08 CC AB 00 08 CC CB 00 08 CC EB 00 08 CD 0B 00 08 CD 2B 00 08 CD 4B 00 08 4E 80 00 21 F8 7E 00 00 D8 3D 00 00 38 60 00 00 F8 7F 00 00 7F 82 E3 78 EB 81 00 D8 EB A1 00 D0 EB C1 00 C8 EB E1 00 C0 38 21 02 00 E8 01 00 10 7C 08 03 A6 4E 80 00 20
+
+
+// write rpc call to func
+0xF98D4 = 4B FD E4 ED
+
+
+0x41500004 = 00 00 00 01
+
+0xF98D4 = 7C 63 23 78
+
+
+// reset rpc
+0xD7DC0 = 7C 08 02 A6 49 43 2C C5 F8 21 FF 51 F8 01 00 C0 60 EB 00 00 61 0C 00 00 90 81 00 70 54 7D 06 3E 90 A1 00 74 3C 60 01 D6 90 C1 00 78 3C E0 01 D6 91 61 00 7C 3F E0 01 81 91 81 00 80 30 87 44 D2 91 21 00 84 38 E0 00 00 91 41 00 88 30 BF 95 60 9B A3 46 D2 2F 1D 00 00 60 9E 00 00 39 00 02 00 60 FF 00 00 2C 85 00 00 31 08 FF FF 2C 08 00 00 41 82 00 28 41 86 00 24 7C C5 38 AE 2C 06 00 00 41 82 00 18 30 E7 00 01 98 C4 00 00 30 84 00 01 7C E7 07 B4 4B FF FF D4 9B E4 00 00 80 61 00 70 63 E4 00 00 2C 03 00 00 41 82 00 1C 41 9A 00 18 30 81 00 70 63 C3 00 00 38 A0 02 00 49 44 C6 89 38 80 00 01 80 61 00 74 2C 03 00 00 41 82 00 20 2C 1D 00 00 41 82 00 18 30 81 00 74 63 C3 00 00 38 A0 02 00 49 44 C6 61 38 80 00 01 80 61 00 78 2C 03 00 00 41 82 00 20 2C 1D 00 00 41 82 00 18 30 81 00 78 63 C3 00 00 38 A0 02 00 49 44 C6 39 38 80 00 01 80 61 00 7C 2C 03 00 00 41 82 00 20 2C 1D 00 00 41 82 00 18 30 81 00 7C
+
+
+// read return value
+0x4150001c
+
+
+
+
+
+god mode on
+0x10040000 = 7E F0 FF FF
+0x1189718 = 3C 60 10 04 30 63 00 00 80 63 00 00 B0 7F 00 B4 90 7F 01 70
+0x118986C = 48 00 00 10
+
+god mode off
+0x10040000 = 43 B0 10 00
+0x1189718 = 41 80 01 24 C0 3F 01 70 C0 5F 0E 00 FC 01 10 00 41 80 01 14
+0x10040000 = 43 C8 00 00
+0x118986C = 40 82 00 10
+
+
+
+
+
+umlimited ammo on
+0xF6CD8 = 3B 80 05 39 B3 99 00 50 B3 99 00 52 7F 97 E3 78 7F 9B E3 78
+0xF6CDA = 34 19
+
+
+unlimited ammo off
+0xF6CD8 = A2 F9 00 50 A3 79 00 52 60 7C 00 00 7E F7 07 34 7F 7B 07 34
+
+
+wanted level 0
+
+0x107A2B0 = 38 60 00 00
+0x107A2B4 = 90 7C 00 94
+0x107A2B8 = 60 00 00 00
+0x107A2A0 = 60 00 00 00
+0x107A2B2 = 00 00
+
+
+wanted level 5 
+0x107A2B2 = 00 05
+
+
+*/
+
+
+
+
+
+
+/*
+when I attached the tool
+
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00C2AA0
+r5: 0x0
+r6: 0x2
+r7: 0x200400E4
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x630
+r4: 0xD00C2AA0
+r5: 0xD00C2AA8
+r6: 0x10158CC8
+r7: 0x565000
+r8: 0x7586D8
+r9: 0xD00C2AA0
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x700
+r4: 0x1010200
+r5: 0xD00C29B0
+r6: 0x2
+r7: 0x0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x0
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x201381C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+when I clicked refrech list on the tool (refreshes player list for the tool)
+
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x20141210
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x202677C0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_3_at_0xD7C1
+C.bin
+inject_count: 4
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500018
+r6: 0x8
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_4_at_0x4150
+0018.bin
+inject_count: 5
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500020
+r6: 0x8
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_5_at_0x4150
+0020.bin
+inject_count: 6
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x4150000C
+r6: 0x4
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_6_at_0x4150
+000C.bin
+inject_count: 7
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500014
+r6: 0x4
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_7_at_0x4150
+0014.bin
+inject_count: 8
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20241770
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20241770
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_8_at_0xD7DC
+0.bin
+inject_count: 9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_9_at_0xF98D
+4.bin
+inject_count: 10
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_10_at_0x415
+00004.bin
+inject_count: 11
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2008D270
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_11_at_0xF98
+D4.bin
+inject_count: 12
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20241770
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_12_at_0xD7D
+C0.bin
+inject_count: 13
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603000
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603004
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x411487A4
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603008
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114C2B4
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160300C
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41146E54
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603010
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41145504
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603014
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114A0F4
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603018
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41149014
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160301C
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x411476C4
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603020
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41144C94
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603024
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114BA44
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603028
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41145D74
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160302C
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114A964
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603030
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41143BB4
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603034
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41149884
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603038
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x411465E4
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160303C
+r6: 0x4
+r7: 0x2016FE80
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41144424
+r6: 0x28
+r7: 0x20143750
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603040
+r6: 0x4
+r7: 0x2012C6C0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41143344
+r6: 0x28
+r7: 0x20244340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603044
+r6: 0x4
+r7: 0x20138340
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x2016F950
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x1020087
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x202677C0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x1020087
+next_file_name: /dev_usb000/plugins/inject_write_process_13_at_0xD7C
+1C.bin
+inject_count: 14
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+when I set player ped id address in the rpc tab and then called it
+
+
+
+
+
+
+
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x4150000C
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_3_at_0x4150
+000C.bin
+inject_count: 4
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500014
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_4_at_0x4150
+0014.bin
+inject_count: 5
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20091E40
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000BB
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20091E40
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_5_at_0xD7DC
+0.bin
+inject_count: 6
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_6_at_0xF98D
+4.bin
+inject_count: 7
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_7_at_0x4150
+0004.bin
+inject_count: 8
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000BB
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2022C440
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_8_at_0xF98D
+4.bin
+inject_count: 9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20091E40
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_9_at_0xD7DC
+0.bin
+inject_count: 10
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4150001C
+r6: 0x4
+r7: 0x2022C440
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000BB
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500018
+r6: 0x8
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_10_at_0x415
+00018.bin
+inject_count: 11
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x4150000C
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_11_at_0x415
+0000C.bin
+inject_count: 12
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500014
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_12_at_0x415
+00014.bin
+inject_count: 13
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20091E40
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_13_at_0xD7D
+C0.bin
+inject_count: 14
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_14_at_0xF98
+D4.bin
+inject_count: 15
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_15_at_0x415
+00004.bin
+inject_count: 16
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2020A9B0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000BB
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2022C440
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_16_at_0xF98
+D4.bin
+inject_count: 17
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x20091E40
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000BB
+next_file_name: /dev_usb000/plugins/inject_write_process_17_at_0xD7D
+C0.bin
+inject_count: 18
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4150001C
+r6: 0x4
+r7: 0x2022C440
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000BB
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+when I pressed god mode on
+
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10040000
+r6: 0x4
+r7: 0x20233600
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_3_at_0x10040000.bin
+inject_count: 4
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x1189718
+r6: 0x14
+r7: 0x2026D4F0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_4_at_0x1189718.bin
+inject_count: 5
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x118986C
+r6: 0x4
+r7: 0x20233600
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_5_at_0x118986C.bin
+inject_count: 6
+ret: 0x0
+
+
+
+
+when I pressed god mode off
+
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10040000
+r6: 0x4
+r7: 0x20233600
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_6_at_0x10040000.bin
+inject_count: 7
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x1189718
+r6: 0x14
+r7: 0x20233430
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_7_at_0x1189718.bin
+inject_count: 8
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x10040000
+r6: 0x4
+r7: 0x2026D580
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_8_at_0x10040000.bin
+inject_count: 9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x118986C
+r6: 0x4
+r7: 0x201B4D30
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_9_at_0x118986C.bin
+inject_count: 10
+ret: 0x0
+
+
+
+
+
+
+unlimited ammo on
+
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF6CD8
+r6: 0x14
+r7: 0x2016E590
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_10_at_0xF6CD8.bin
+inject_count: 11
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF6CDA
+r6: 0x2
+r7: 0x201B4D30
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_11_at_0xF6CDA.bin
+inject_count: 12
+ret: 0x0
+
+
+
+unlimited ammo off
+
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF6CD8
+r6: 0x14
+r7: 0x2014C710
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_12_at_0xF6CD8.bin
+inject_count: 13
+ret: 0x0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+refresh client list button
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x2014EBA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x2014EBA0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_13_at_0xD7C1C.bin
+inject_count: 14
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500018
+r6: 0x8
+r7: 0x2014E9D0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_14_at_0x41500018.bin
+inject_count: 15
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500020
+r6: 0x8
+r7: 0x2026D940
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_15_at_0x41500020.bin
+inject_count: 16
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x4150000C
+r6: 0x4
+r7: 0x2026D940
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_16_at_0x4150000C.bin
+inject_count: 17
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500014
+r6: 0x4
+r7: 0x2026D940
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_17_at_0x41500014.bin
+inject_count: 18
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x2014E8A0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x2014E8A0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_18_at_0xD7DC0.bin
+inject_count: 19
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2026D940
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_19_at_0xF98D4.bin
+inject_count: 20
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2026D940
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_20_at_0x41500004.bin
+inject_count: 21
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41500004
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xF98D4
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_21_at_0xF98D4.bin
+inject_count: 22
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7DC0
+r6: 0x12C
+r7: 0x2014E8A0
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_22_at_0xD7DC0.bin
+inject_count: 23
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603000
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114C2B4
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603004
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603008
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160300C
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603010
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603014
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603018
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160301C
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x411487A4
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603020
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603024
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603028
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160302C
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41143344
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603030
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603034
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4114B1D4
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603038
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x411465E4
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x4160303C
+r6: 0x4
+r7: 0x2013ACA0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41145504
+r6: 0x28
+r7: 0x2009A280
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603040
+r6: 0x4
+r7: 0x2026D940
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41144C94
+r6: 0x28
+r7: 0x20227840
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x41603044
+r6: 0x4
+r7: 0x2026D6F0
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x785
+r4: 0x1010200
+r5: 0x18205B0
+r6: 0x28
+r7: 0x20184490
+r8: 0x200401C8
+r9: 0x7D4BF8
+r10: 0x10000B9
+ret: 0x0
+ccapi_lv2_syscall
+r3: 0x123
+r4: 0x1010200
+r5: 0xD7C1C
+r6: 0x60
+r7: 0x2014EA20
+r8: 0xFFFFFFFF
+r9: 0x7D4BF8
+r10: 0x10000B9
+next_file_name: /dev_usb000/plugins/inject_write_process_23_at_0xD7C1C.bin
+inject_count: 24
+ret: 0x0
+
+
+
+
+*/
